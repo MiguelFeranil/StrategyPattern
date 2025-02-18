@@ -22,10 +22,10 @@ B. AttackStrategy
   
   3. SwingSword
 
-    Refactor the existing codes and provide the UML Diagram:
-public class Character {
+ Refactor the existing codes and provide the UML Diagram:	
+ 
+	public class Character {
     private String type;
-
     public Character(String type) {
         this.type = type;
     }
@@ -39,7 +39,6 @@ public class Character {
             System.out.println("Archer shoots an arrow!");
         }
     }
-
     public void defend() {
         if (type.equals("Knight")) {
             System.out.println("Using a shield to defend!");
@@ -49,6 +48,9 @@ public class Character {
             System.out.println("Creating a magic barrier for defense!");
         } else if (type.equals("Archer")) {
             System.out.println("Using a shield to defend!");
-        }
+ 	}  
+	}
     }
-}
+ UML DIAGRAM
+    ![DIAGRAAM](https://github.com/user-attachments/assets/f4777ce3-8780-45f0-be15-3d5316010b29)
+
