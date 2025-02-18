@@ -48,9 +48,9 @@ B. AttackStrategy
             System.out.println("Creating a magic barrier for defense!");
         } else if (type.equals("Archer")) {
             System.out.println("Using a shield to defend!");
- 			}  
-		}
- 	}
+ 		}  
+		}	
+	}
  UML DIAGRAM
     ![DIAGRAAM](https://github.com/user-attachments/assets/f4777ce3-8780-45f0-be15-3d5316010b29)
 
